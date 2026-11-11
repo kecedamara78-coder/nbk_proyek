@@ -1,0 +1,24 @@
+{
+  "name": "ppdb-nusaibah",
+  "version": "1.0.0",
+  "description": "PPDB Online Pondok Pesantren Nusaibah Binti Kaab Tangerang",
+  "main": "serve.js",
+  "scripts": {
+    "dev": "node serve.js",
+    "start": "node serve.js",
+    "dev:css": "npx @tailwindcss/cli -i ./resources/css/app.css -o ./public/assets/css/app.css --watch",
+    "build:css": "npx @tailwindcss/cli -i ./resources/css/app.css -o ./public/assets/css/app.css --minify"
+  },
+  "keywords": [
+    "ppdb",
+    "pesantren",
+    "nusaibah"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "bcryptjs": "^3.0.3",
+    "tailwindcss": "^4.3.3"
+  }
+}

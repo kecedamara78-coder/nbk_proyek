@@ -1,0 +1,19 @@
+{
+  "name": "ppdb-nusaibah-root",
+  "version": "1.0.0",
+  "description": "PPDB Online Pondok Pesantren Nusaibah Binti Kaab Tangerang",
+  "scripts": {
+    "dev": "node ppdb-nusaibah-sot/serve.js",
+    "start": "node ppdb-nusaibah-sot/serve.js",
+    "dev:css": "npm --prefix ppdb-nusaibah-sot run dev:css",
+    "build:css": "npm --prefix ppdb-nusaibah-sot run build:css"
+  },
+  "keywords": [
+    "ppdb",
+    "pesantren",
+    "nusaibah"
+  ],
+  "author": "",
+  "license": "ISC"
+}
+
